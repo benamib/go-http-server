@@ -34,7 +34,7 @@ variables:
     SETTINGS__STANDALONE: 'true'
   script:
     - cd /home/dependabot/app
-    - bundle exec rake "dependabot:update[$PROJECT_PATH,$PACKAGE_MANAGER,$DIRECTORY]"
+    - bundle exec rake "dependabot:update[$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME,$PACKAGE_MANAGER,/]"
 
 gomod:
   extends: .dependabot-gitlab
