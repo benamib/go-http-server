@@ -3,7 +3,7 @@ module go-http-server
 go 1.17
 
 require (
-	github.com/go-chi/chi/v5 v5.0.7
+	github.com/go-chi/chi/v5 v5.0.8
 	github.com/hellofresh/health-go/v4 v4.6.0
 	github.com/sirupsen/logrus v1.8.1
 )
